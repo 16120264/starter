@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!-- 
+
+ DOCTYPE is the only tag in upper case 
+ <html>
+ <head>
+ <title>
+ <body>
+ 
+ DOCTYPE denotes what type of code we are using, we are using HTML5
+ 
+-->
+
+ <html>  <!-- tells the browser that we are ready to start coding in HTML - then close straight away -->
+ 
+ <head>  <!-- things that need to be read into the document before it starts loading ie css and javascript -->
+ 
+	<title> classes and ids </title>  <!-- this is the browser name -->
+	<!-- CSS has to be loaded before the body is displayed
+	     link rel - link tag
+		 type - text
+		 href - linking to something
+	-->
+	<link rel="stylesheet" type="text/css" href="style2.css"/>
+	
+ </head> <!-- this is the head close tag -->
+
+ <body>  <!-- this is the content of the web page.  using inline styling for example only -->
+	
+	<!-- CLASSES - can only be used multiple times -->
+	<h1>header using default css sheet</h1>
+	<p class="mypara italics"> this is a class called "mypara" and a class called "italics"</p>  <!-- classes -->
+	<p> this is without a class </p>
+	<p class="mypara"> this is a class called "mypara" again on its own</p>  <!-- classes -->
+	<p class="italics"> this is with an 'italics' class</p>
+	
+	<!-- IDs - can only be used once, unique name every time -->
+	<p id="myId1"> this is using "my id1" as an id tag</p>
+	<p> this is default again</p>
+	<p id="myId2" class="italics"> this is using "my id2" as an id tag and "italics" as a class</p>
+	
+ </body> <!-- this is the body close tag -->
+ 
+ </html>  <!-- this is the html close tag -->

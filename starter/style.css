@@ -1,0 +1,26 @@
+/* 
+body of HTML can be used for the background color
+when there are two words together - i.e. background, it always has a dash.
+*/
+
+body /* overall color for the website, the background */
+{
+	background-color:rgb(179,226,255);
+}
+h1 /* styling for H1 tag */
+{	
+	color:blue;	
+	font-family:Tahoma, Geneva, sans-serif;
+}
+h2 /* styling for H1 tag */
+{
+	color:orange;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p /* styling for P tag */
+{
+	color:green;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration:underline;
+}

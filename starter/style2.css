@@ -1,0 +1,60 @@
+/* 
+body of HTML can be used for the background color
+when there are two words together - i.e. background, it always has a dash.
+*/
+
+body /* overall color for the website, the background */
+{
+	background-color:rgb(179,226,255);
+}
+
+h1 /* styling for H1 tag */
+{	
+	color:blue;	
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+h2 /* styling for H1 tag */
+{
+	color:orange;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p /* styling for P tag */
+{
+	color:green;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration:underline;
+}
+/* classes
+
+classes can be used multiple times.  to denote an class use a . and can only be used many times on a page
+*/
+
+.mypara
+{
+	color:red;
+}
+
+/* IDs
+IDs can only be used once.  to denote an ID use a # and can only be used once on a page
+*/
+
+#myId1
+{
+	color:black
+}
+
+#myId2
+{
+	color:purple
+}
+
+.font
+{
+	font-family:Georgia;
+}
+.italics
+{
+	font-style:italic
+}
